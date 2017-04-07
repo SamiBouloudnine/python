@@ -7,7 +7,7 @@ h  = '192.168.1.6'
 s.bind((h,p))
 nu = 99*9999
 s.listen(1)
-print '               Wait for connection    \n                 %s \n       '%h
+print '               Wait for connection    \n                 \n       '
 data, host = s.accept()
 print 'connected from ',host[0],'\n\n'
 loc = data.recv(1024)
