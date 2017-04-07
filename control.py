@@ -84,4 +84,3 @@ while True:
 		loc = data.recv(1024)
 	continue	
 s.close()		
-#socket.gethostbyname(socket.gethostname())
